@@ -1,0 +1,9 @@
+Customer onboarding form, completed by the customer
+
+Legal name: Northwind Supplies Ltd.
+Registration number: HRB 482196
+Registered address: 48 Canal Street, Rotterdam
+Employees: 85
+Listed: No
+Politically exposed person: No
+Expected annual volume: 2400000

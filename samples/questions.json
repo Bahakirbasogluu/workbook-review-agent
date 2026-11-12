@@ -1,0 +1,18 @@
+{
+  "version": "2026.03-1",
+  "protected": ["Review!A1:B20", "Summary!A1:D10"],
+  "questions": [
+    {"id": "Q01", "batch": 1, "order": 1, "text": "Legal name of the customer", "sheet": "Review", "cell": "C3", "format": "free", "hint": "Legal name"},
+    {"id": "Q02", "batch": 1, "order": 2, "text": "Registration number", "sheet": "Review", "cell": "C4", "format": "free", "hint": "Registration number"},
+    {"id": "Q03", "batch": 1, "order": 3, "text": "Date of incorporation", "sheet": "Review", "cell": "C5", "format": "date", "hint": "Incorporation date"},
+    {"id": "Q04", "batch": 1, "order": 4, "text": "Registered address", "sheet": "Review", "cell": "C6", "format": "free", "hint": "Registered address"},
+    {"id": "Q05", "batch": 2, "order": 1, "text": "Has the company existed for more than three years?", "sheet": "Review", "cell": "C8", "format": "yes_no", "hint": "older_than_3_years:Incorporation date"},
+    {"id": "Q06", "batch": 2, "order": 2, "text": "Number of employees", "sheet": "Review", "cell": "C9", "format": "number", "hint": "Employees"},
+    {"id": "Q07", "batch": 2, "order": 3, "text": "Main business activity", "sheet": "Review", "cell": "C10", "format": "free", "hint": "Business activity"},
+    {"id": "Q08", "batch": 2, "order": 4, "text": "Is the company listed on a stock exchange?", "sheet": "Review", "cell": "C11", "format": "yes_no", "hint": "Listed"},
+    {"id": "Q09", "batch": 3, "order": 1, "text": "Ultimate beneficial owner", "sheet": "Review", "cell": "C13", "format": "free", "hint": "Ultimate beneficial owner"},
+    {"id": "Q10", "batch": 3, "order": 2, "text": "Is a politically exposed person involved?", "sheet": "Review", "cell": "C14", "format": "yes_no", "hint": "Politically exposed person"},
+    {"id": "Q11", "batch": 3, "order": 3, "text": "Country risk rating", "sheet": "Review", "cell": "C15", "format": "dropdown", "hint": "Country risk"},
+    {"id": "Q12", "batch": 3, "order": 4, "text": "Expected annual transaction volume (EUR)", "sheet": "Review", "cell": "C16", "format": "number", "hint": "Expected annual volume"}
+  ]
+}
