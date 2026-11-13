@@ -1,5 +1,7 @@
 # workbookreview
 
+[![CI](https://github.com/Bahakirbasogluu/workbook-review-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Bahakirbasogluu/workbook-review-agent/actions/workflows/ci.yml)
+
 An agent that pre-fills a review workbook from evidence documents, batch by batch, while a person confirms every answer. When the last batch is confirmed, the answers are written into the organisation's own Excel workbook in one guarded pass.
 
 The design comes from a KYC onboarding assistant I built for a bank, where relationship managers used to complete a long eligibility workbook by hand from the documents a client sends. The code here is written from scratch with an invented customer, question set and workbook; it contains no client code or data.
